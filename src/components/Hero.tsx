@@ -12,12 +12,15 @@ const Hero = () => {
   ];
 
   // Function to handle smooth scroll
-  const scrollToServices = () => {
-    const element = document.getElementById('services');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+  // Inside Hero.tsx
+// Inside Hero.tsx
+const scrollToServices = () => {
+  // Change 'lab-services' back to 'services'
+  const element = document.getElementById('services'); 
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+};
 
   return (
     <section className="relative bg-gradient-to-br from-teal-50 via-white to-blue-50 overflow-hidden border-b border-gray-100">

@@ -8,7 +8,7 @@ const LabServices = () => {
   const vaccines = VACCINATION_DATA;
 
   return (
-    <section id="lab" className="py-20 bg-white">
+    <section id="services" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-16 animate-fadeInUp">
           <div className="inline-block mb-4">
